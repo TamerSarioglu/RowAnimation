@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
 data class Superhero(
     val name: String,
-    val powers: Map<String, Int> // Each power level (e.g., "strength" -> 80)
+    val powers: Map<String, Int>
 )
 
 
